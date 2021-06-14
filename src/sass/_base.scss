@@ -1,0 +1,31 @@
+/* ------------ CSS CUSTOM PROPERTIES START ------ */
+:root {
+    --color-primary: #eb2f64;
+    --color-white: #fff;
+    --color-gray-light: #eee;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+::selection {
+    background-color: var(--color-primary);
+    color: var(--color-white);
+}
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%; // To make 1rem = 10px... because 10/16=62.5
+}
+
+body {
+    min-height: 100vh;
+}
